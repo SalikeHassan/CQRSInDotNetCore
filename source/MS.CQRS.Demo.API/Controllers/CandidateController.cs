@@ -61,7 +61,7 @@ namespace MS.CQRS.Demo.API.Controllers
         [ProducesResponseType(Status204NoContent)]
         public async Task<IActionResult> GetCandidateFullDetails([FromQuery] int candidateId)
         {
-            var response = await this.mediator.Send(new GetCandidateSkillByIdQuery() { CandidateId = candidateId });
+            var response = await this.mediator.Send(new GetCandidateFullDetailsIdQuery() { CandidateId = candidateId });
 
             if (response == null)
             {
