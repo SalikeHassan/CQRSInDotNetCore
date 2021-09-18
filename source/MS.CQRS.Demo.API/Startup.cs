@@ -55,7 +55,6 @@ namespace MS.CQRS.Demo.API
             services.AddMediatR(AppDomain.CurrentDomain.GetAssemblies());
             var serviceAssemble = AppDomain.CurrentDomain.Load("MS.CQRS.Demo.Service");
             services.AddMediatR(serviceAssemble);
-            //services.AddMediatR(typeof(myAssemblyStuff).GetTypeInfo().Assembly);
 
             services.AddSwaggerGen(c =>
             {
