@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MS.CQRS.Demo.API", "source\MS.CQRS.Demo.API\MS.CQRS.Demo.API.csproj", "{7D64EB4B-87D3-4022-BE5F-BCBB4DA280B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MS.CQRS.Demo.Domain", "source\MS.CQRS.Demo.Domain\MS.CQRS.Demo.Domain.csproj", "{625E6D89-DC3F-4583-914D-77A98B19D21F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MS.CQRS.Demo.Contract", "source\MS.CQRS.Demo.Contract\MS.CQRS.Demo.Contract.csproj", "{BBE0B710-779D-4360-8968-0EFB001B66A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MS.CQRS.Demo.Infrastructure", "source\MS.CQRS.Demo.Infrastructure\MS.CQRS.Demo.Infrastructure.csproj", "{72E75763-0444-4694-A955-60A1A6844600}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MS.CQRS.Demo.Service", "source\MS.CQRS.Demo.Service\MS.CQRS.Demo.Service.csproj", "{CF404974-E365-40F4-89CD-8FF08C6B0350}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7D64EB4B-87D3-4022-BE5F-BCBB4DA280B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D64EB4B-87D3-4022-BE5F-BCBB4DA280B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D64EB4B-87D3-4022-BE5F-BCBB4DA280B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D64EB4B-87D3-4022-BE5F-BCBB4DA280B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{625E6D89-DC3F-4583-914D-77A98B19D21F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{625E6D89-DC3F-4583-914D-77A98B19D21F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{625E6D89-DC3F-4583-914D-77A98B19D21F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{625E6D89-DC3F-4583-914D-77A98B19D21F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBE0B710-779D-4360-8968-0EFB001B66A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBE0B710-779D-4360-8968-0EFB001B66A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBE0B710-779D-4360-8968-0EFB001B66A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBE0B710-779D-4360-8968-0EFB001B66A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72E75763-0444-4694-A955-60A1A6844600}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72E75763-0444-4694-A955-60A1A6844600}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72E75763-0444-4694-A955-60A1A6844600}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72E75763-0444-4694-A955-60A1A6844600}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF404974-E365-40F4-89CD-8FF08C6B0350}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF404974-E365-40F4-89CD-8FF08C6B0350}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF404974-E365-40F4-89CD-8FF08C6B0350}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF404974-E365-40F4-89CD-8FF08C6B0350}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B6F31516-220D-4AD3-9FC3-86608248E8FD}
+	EndGlobalSection
+EndGlobal
